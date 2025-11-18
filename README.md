@@ -11,7 +11,7 @@
   - ```
     conda create -n mi python=3.13
     conda activate mi
-    pip install -r requirements
+    pip install -r requirements.txt
     ```
 
 - Add env kernel to jupyter (inside the created conda env):
