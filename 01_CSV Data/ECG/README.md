@@ -2,7 +2,7 @@
 
 
 
-<img src="E:\Shahed\Medical Informatics\github\01_CSV Data\ECG\Infographic_Raw ECG to Heart Rate Workflow.png" alt="Infographic_Raw ECG to Heart Rate Workflow" style="zoom: 33%;" />
+<img src="Infographic_Raw ECG to Heart Rate Workflow.png" alt="Infographic_Raw ECG to Heart Rate Workflow" style="zoom: 33%;" />
 
 
 
