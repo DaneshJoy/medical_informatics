@@ -10,7 +10,8 @@ os.makedirs(RESULTS_PATH, exist_ok=True)
 
 # Load the HDF5 file
 with h5py.File(HDF5_PATH, "r") as f:
-    x = f["tracings"][:]  # shape (827, 4096, 12)
+    x = np.array(f['tracings'])
+    print(f"Loaded data shape: {x.shape}")  # shape (827, 4096, 12)
 
 # Choose the desired N_SAMPLES
 # Number of samples to extract (e.g., first 10 ECGs)
